@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    align-items: end;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.navbar {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.navbar button {
+  float: left;
+  display: block;
+  color: rgb(228, 225, 225);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  background-color: #0c0c0c;
+  transition: background-color 0.3s;
+}
+
+.navbar button:hover {
+  background-color: #edeaea;
+  color: black;
+}
+
+.navbar button.active {
+  background-color: #4CAF50;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full height of the viewport */
+}
+
+.centered {
+  text-align: center; /* Center text inside the div */
+  /*border: 2px solid black; /* Just for demonstration */
+  padding: 20px; /* Just for demonstration */
+}
+
+
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  margin-bottom: 0;
+  padding: 0;
+ 
+    /* Set background image */
+    background-image: url('img.jpg');
+    /* Adjust background size and repeat as needed */
+    background-size: cover; /* or 'contain' or specify dimensions */
+   
+    /* Center the background image */
+    background-position: center;
+    /* Set background color as a fallback */
+    background-color: #000000; /* Choose a suitable background color */
+    /* Ensure the background covers the whole viewport */
+    background-attachment: fixed;
+    height: 50%;
+    margin: 0;
+    /* Optionally, add more styles as needed */
+  
+  
+
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  color: #ffffff;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+h3 {
+  color: #ffffff;
+}
+p {
+  color: #ffffff;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+footer {
+  background-color: #191b20;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.response{
+
+  margin-top: 60%;
+  position:relative;
+ width: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-black {
+  color: #fffdfd; /* black color */
+}
+
+.text-white{
+  color: #ffffff; /* black color */
+}
